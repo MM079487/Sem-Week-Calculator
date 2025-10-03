@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Semester Week Calculator</title>
+</head> 
+<body>
+
+    <div class="inputBox">
+        Start Date:
+        <input type="date" name="dateSelect" id="dataSelect">
+        <div class="semButtons">
+            <button class="sem1" onclick="semButton(1)">Sem 1</button>
+            <button class="sem2" onclick="semButton(2)">Sem 2</button>
+            <button class="sem3" onclick="semButton(3)">Sem 3</button>
+        </div>
+
+        <button id="findButton" onclick="buttonTrigger()">Find!</button>
+    </div>
+
+    <div class="resultBox">
+        Current Week:
+        <div id="result">X</div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
